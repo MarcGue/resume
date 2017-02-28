@@ -3,6 +3,11 @@ var HTMLeducationArticle = '<article class="p-3"><h3>%educationTitle%</h3><h5 cl
 
 var resume = {
     jobs: [{
+        title: 'Ausbildung zum IT-Systemkaufmann',
+        dates: '09/2007 - 07/2010',
+        companyName: 'Deutsche Telekom AG',
+        description: 'Durchlaufene Abteilungen/Stationen:<br>- T-Systems - Großkundenvertrieb<br>- Technischer Service<br>- Telekom Shop<br>- Projektmanagement'
+    }, {
         title: 'Technischer Assistent',
         dates: '07/2010 - 02/2011',
         companyName: 'Deutsche Funkturm GmbH',
@@ -19,11 +24,6 @@ var resume = {
         description: ''
     }],
     trainings: [{
-        title: 'Ausbildung zum IT-Systemkaufmann',
-        dates: '09/2007 - 07/2010',
-        companyName: 'Deutsche Telekom AG',
-        description: 'Durchlaufene Abteilungen/Stationen:<br>- T-Systems - Großkundenvertrieb<br>- Technischer Service<br>- Telekom Shop<br>- Projektmanagement'
-    }, {
         title: 'Geprüfter Java Entwickler in HAF',
         dates: '08/2010 - 08/2011',
         companyName: 'Hamburger Akademie für Fernstudien',
