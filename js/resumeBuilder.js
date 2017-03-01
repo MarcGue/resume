@@ -1,7 +1,23 @@
-var HTMLworkArticle = '<article class="p-3"><h3>%workTitle%</h3><h5 class="text-muted">%workDates%</h5><h6 class="text-muted mb-4">%workCompanyName%</h6><p>%workDescription%</p></article>';
-var HTMLeducationArticle = '<article class="p-3"><h3>%educationTitle%</h3><h5 class="text-muted">%educationDates%</h5><h6 class="text-muted mb-4">%educationCompanyName%</h6><p>%educationDescription%</p></article>';
+var HTMLworkArticle = `<article class="p-3">
+                            <h3>%workTitle%</h3>
+                            <h5 class="text-muted">%workDates%</h5>
+                            <h6 class="text-muted mb-4">%workCompanyName%</h6>
+                            <p>%workDescription%</p>
+                       </article>`;
+
+var HTMLeducationArticle = `<article class="p-3">
+                                <h3>%educationTitle%</h3>
+                                <h5 class="text-muted">%educationDates%</h5>
+                                <h6 class="text-muted mb-4">%educationCompanyName%</h6>
+                                <p>%educationDescription%</p>
+                            </article>`;
 
 var resume = {
+    profile: `Ich bin ein versierter Softwareentwickler mit mehr als sechs Jahren Berufserfahrung in verschiedenen Themengebieten. 
+                Meine Schwerpunkte liegen in der Entwicklung von Softwaresystemen mit den gängigen Sprachen Java, sowie Javascript.
+                <br><br>Meine Arbeitsweise ist gekennzeichnet durch Effizienz, Selbständigkeit und Sorgfalt, 
+                aber auch durch ein hohes Maß an Verantwortungsbewusstsein und Zuverlässigkeit. 
+                Gutes Analyse - und Urteilsvermögen gehören ebenso zu meinem Qualifikationsprofil wie Kreativität und Flexibilität.`,
     jobs: [{
         title: 'Ausbildung zum IT-Systemkaufmann',
         dates: '09/2007 - 07/2010',
@@ -44,7 +60,7 @@ var resume = {
         });
     },
     displayEducation: function () {
-        resume.trainings.forEach(function(training){
+        resume.trainings.forEach(function (training) {
             var formattedEducationArticle = HTMLeducationArticle.replace('%educationTitle%', training.title);
             formattedEducationArticle = formattedEducationArticle.replace('%educationDates%', training.dates);
             formattedEducationArticle = formattedEducationArticle.replace('%educationCompanyName%', training.companyName);
