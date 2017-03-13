@@ -12,6 +12,10 @@ var HTMLeducationArticle = `<article class="p-3">
                                 <p>%educationDescription%</p>
                             </article>`;
 
+var HTMLarticle = `<article class="p-3"></article>`;
+
+var HTMLbadge = `<span class="badge badge-default m-1 p-2">%data%</span>`;
+
 var resume = {
     profile: `Ich bin ein versierter Softwareentwickler mit mehr als sechs Jahren Berufserfahrung in verschiedenen Themengebieten. 
                 Meine Schwerpunkte liegen in der Entwicklung von Softwaresystemen mit den gängigen Sprachen Java, sowie Javascript.
@@ -50,6 +54,15 @@ var resume = {
         companyName: 'Udacity Inc.',
         description: ''
     }],
+    frameworks: [
+        'Spring',
+        'Hibernate',
+        'JUnit',
+        'Angular',
+        'JQuery',
+        'Twitter Bootstrap',
+        'Vaadin',
+    ],
     displayWork: function () {
         resume.jobs.forEach(function (job) {
             var formattedWorkArticle = HTMLworkArticle.replace('%workTitle%', job.title);
@@ -67,8 +80,16 @@ var resume = {
             formattedEducationArticle = formattedEducationArticle.replace('%educationDescription%', training.description);
             $('#education h2').after(formattedEducationArticle);
         });
+    },
+    displayFrameworks: function () {
+        $('#frameworks h2').after(HTMLarticle);
+        resume.frameworks.forEach(function (framework) {
+            var formattedFramework = HTMLbadge.replace('%data%', framework);
+            $('#frameworks article').append(formattedFramework);
+        });
     }
 };
 
 resume.displayWork();
 resume.displayEducation();
+resume.displayFrameworks();
