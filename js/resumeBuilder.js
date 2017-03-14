@@ -60,9 +60,21 @@ var resume = {
         'JUnit',
         'Angular',
         'JQuery',
-        'Twitter Bootstrap',
-        'Vaadin',
+        'Twitter Bootstrap'
     ],
+    tools: [
+        'Eclipse',
+        'Visual Studio Code',
+        'Maven',
+        'Git',
+        'Jenkins',
+        'Docker',
+        'Node.js',
+        'Bower',
+        'Grunt',
+        'SVN',
+        'Ant'
+    ], 
     displayWork: function () {
         resume.jobs.forEach(function (job) {
             var formattedWorkArticle = HTMLworkArticle.replace('%workTitle%', job.title);
@@ -87,9 +99,17 @@ var resume = {
             var formattedFramework = HTMLbadge.replace('%data%', framework);
             $('#frameworks article').append(formattedFramework);
         });
+    },
+    displayTools: function () {
+        $('#tools h2').after(HTMLarticle);
+        resume.tools.forEach(function (tool) {
+            var formattedTool = HTMLbadge.replace('%data%', tool);
+            $('#tools article').append(formattedTool);
+        });
     }
 };
 
 resume.displayWork();
 resume.displayEducation();
 resume.displayFrameworks();
+resume.displayTools();
