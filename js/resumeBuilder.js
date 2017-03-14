@@ -47,12 +47,12 @@ var resume = {
         title: 'Geprüfter Java Entwickler in HAF',
         dates: '08/2010 - 08/2011',
         companyName: 'Hamburger Akademie für Fernstudien',
-        description: 'Einführung in Java und in das Entwicklungswerkzeug (Eclipse)<br>Java-Applikationen<br>Java, Datenbanken und SQL<br>Praktische Fallstudie "Applet-Programmierung"<br>Praktische Fallstudie "Applikationsentwicklung"<br>Praktische Fallstudie "Datenbankanbindung"'
+        description: 'Einführung in Java und in das Entwicklungswerkzeug (Eclipse)<br>- Java-Applikationen<br>- Java, Datenbanken und SQL<br>- Praktische Fallstudie "Applet-Programmierung"<br>- Praktische Fallstudie "Applikationsentwicklung"<br>- Praktische Fallstudie "Datenbankanbindung"'
     }, {
         title: 'Front-End Web Developer Nanodegree',
         dates: '02/2017 - now',
         companyName: 'Udacity Inc.',
-        description: ''
+        description: 'Become a Front-End Web Developer by completing a variety of projects:<br>- Build a Portfolio Site<br>- Online Resume<br>- Classic Arcade Game Clone<br>- Website Optimization<br>- Neighborhood Map<br>- Feed Reader Testing'
     }],
     frameworks: [
         'Spring',
