@@ -52,7 +52,7 @@ var resume = {
         title: 'Front-End Web Developer Nanodegree',
         dates: '02/2017 - now',
         companyName: 'Udacity Inc.',
-        description: `Abzuschließende Projekt während des Front-End Web Developer Nanodegrees:<br>
+        description: `Abzuschließende Projekt des Nanodegrees:<br>
         - Erstellen einer Portfolio Seite<br>
         - Erstellen eines Online Lebenslauf<br>
         - Erstellen eines Arcade Game Klons<br>
