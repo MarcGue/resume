@@ -65,6 +65,7 @@ var resume = {
     tools: [
         'Eclipse',
         'Visual Studio Code',
+        'Xcode',
         'Maven',
         'Git',
         'Jenkins',
