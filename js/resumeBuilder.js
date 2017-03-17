@@ -52,7 +52,14 @@ var resume = {
         title: 'Front-End Web Developer Nanodegree',
         dates: '02/2017 - now',
         companyName: 'Udacity Inc.',
-        description: 'Become a Front-End Web Developer by completing a variety of projects:<br>- Build a Portfolio Site<br>- Online Resume<br>- Classic Arcade Game Clone<br>- Website Optimization<br>- Neighborhood Map<br>- Feed Reader Testing'
+        description: `Abzuschließende Projekt während des Front-End Web Developer Nanodegrees:<br>
+        - Erstellen einer Portfolio Seite<br>
+        - Erstellen eines Online Lebenslauf<br>
+        - Erstellen eines Arcade Game Klons<br>
+        - Optimisierung einer Website<br>
+        - Erstellen einer Nachbarschaftskarte<br>
+        - Schreiben von Tests eines Feed Readers`,
+        description_en: 'Become a Front-End Web Developer by completing a variety of projects:<br>- Build a Portfolio Site<br>- Online Resume<br>- Classic Arcade Game Clone<br>- Website Optimization<br>- Neighborhood Map<br>- Feed Reader Testing'
     }],
     frameworks: [
         'Spring',
