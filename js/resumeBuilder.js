@@ -36,7 +36,17 @@ var resume = {
         title: 'Software Engineer',
         dates: '02/2011 - 10/2016',
         companyName: 'Peak Solution GmbH',
-        description: ''
+        description: `
+        <p>
+            Bei der Peak Solution GmbH war ich als Software Engineer im Geschäftsbereich Versuchs- und Messdatenmanagement tätig. Im Rahmen meiner Tätigkeit für die Kunden führte ich folgende Aufgaben aus:
+        </p>
+        <ul>
+            <li>Unterstützung beim Erstellen von Fachkonzepten und Softwarespezifiktaionen</li>
+            <li>Implementierung von Softwarelösungen für Messdatenmanagement und Versuchsteileverwaltung mit Java, Eclipse RCP, OSGi, Hibernate, Spring, Swing, JavaEE, Vaadin, etc.</li>
+            <li>Erstellen von Testkonzepten und Durchführen von Tests</li>
+            <li>Inbetriebnahme von Lösungen</li>
+            <li>Fehlerbeseitigung und Problembehandlung innerhalb von Softwarelösungen</li>
+        </ul>`
     }, {
         title: 'Software Engineer',
         dates: '10/2016 - now',
