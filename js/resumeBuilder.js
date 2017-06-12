@@ -166,4 +166,4 @@ var resume = {
 resume.displayWork();
 resume.displayEducation();
 resume.displayFrameworks();
-resume.displayTools()
+resume.displayTools();
