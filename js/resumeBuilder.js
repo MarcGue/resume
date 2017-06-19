@@ -65,7 +65,7 @@ var resume = {
             <li>Fehlerbeseitigung und Problembehandlung innerhalb von Softwarelösungen</li>
         </ul>`
     }, {
-        title: 'Software Engineer',
+        title: 'Senior Software Engineer',
         dates: '10/2016 - now',
         companyName: 'adesso AG',
         description: `
