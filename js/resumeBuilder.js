@@ -75,6 +75,7 @@ var resume = {
         <ul>
             <li>Implementierung einer Softwarelösung zum Verwalten und Vertreiben von Mietwagen mit J2EE, AngularJS, Javascript, Typo3, Docker, etc.</li>
             <li>Implementierung eines Callcenter Clients mit dessen Hilfe eine Bank ihre telefonischen Kunden betreut. (Spring, Apache Wicket)</li>
+            <li>Implementierung einer Plattform zum Verwalten von landwirtschaftlichen Betrieben. (OSGi, Spring Boot, AngularJS, Docker)</li>
         </ul>`
         
     }],
