@@ -112,11 +112,13 @@ var resume = {
         'Spring',
         'Hibernate',
         'JUnit',
+        'ReactJS',
         'Angular',
         'JQuery',
         'Twitter Bootstrap'
     ],
     tools: [
+        'IntelliJ',
         'Eclipse',
         'Visual Studio Code',
         'Xcode',
