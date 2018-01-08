@@ -109,13 +109,14 @@ var resume = {
         description_en: 'Become a Front-End Web Developer by completing a variety of projects:<br>- Build a Portfolio Site<br>- Online Resume<br>- Classic Arcade Game Clone<br>- Website Optimization<br>- Neighborhood Map<br>- Feed Reader Testing'
     }],
     frameworks: [
+        'Spring Boot',
         'Spring',
         'Hibernate',
         'JUnit',
-        'ReactJS',
+        'React',
         'Angular',
         'JQuery',
-        'Twitter Bootstrap'
+        'Bootstrap'
     ],
     tools: [
         'IntelliJ',
@@ -123,6 +124,7 @@ var resume = {
         'Visual Studio Code',
         'Xcode',
         'Maven',
+        'Gradle',
         'Git',
         'Jenkins',
         'Docker',
