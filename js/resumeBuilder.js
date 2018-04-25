@@ -66,7 +66,7 @@ var resume = {
         </ul>`
     }, {
         title: 'Senior Software Engineer',
-        dates: '10/2016 - now',
+        dates: '10/2016 - 05/2018',
         companyName: 'adesso AG',
         description: `
         <p>
