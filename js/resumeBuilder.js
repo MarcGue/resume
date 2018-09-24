@@ -76,8 +76,12 @@ var resume = {
             <li>Implementierung einer Softwarelösung zum Verwalten und Vertreiben von Mietwagen (J2EE, AngularJS, Javascript, Typo3, Docker)</li>
             <li>Implementierung eines Callcenter Clients mit dessen Hilfe eine Bank ihre telefonischen Kunden betreut. (Spring, Apache Wicket)</li>
             <li>Implementierung einer Plattform zum Verwalten von landwirtschaftlichen Betrieben. (OSGi, Spring Boot, AngularJS, Docker)</li>
-        </ul>`
-        
+        </ul>`   
+    }, {
+        title: 'Senior Software Engineer',
+        dates: '05/2018 - heute',
+        companyName: 'Cegeka Deutschland GmbH',
+        description: ``
     }],
     trainings: [{
         title: 'Geprüfter Java Entwickler in HAF',
