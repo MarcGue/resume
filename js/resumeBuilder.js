@@ -82,6 +82,11 @@ var resume = {
         dates: '05/2018 - heute',
         companyName: 'Cegeka Deutschland GmbH',
         description: ``
+    }, {
+        title: 'Team Lead Berlin',
+        dates: '01/2019 - heute',
+        companyName: 'Cegeka Deutschland GmbH',
+        description: ``
     }],
     trainings: [{
         title: 'Geprüfter Java Entwickler in HAF',
