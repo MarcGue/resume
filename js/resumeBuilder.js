@@ -123,7 +123,7 @@ var resume = {
         'Redux',
         'Angular',
         'NGRX',
-        'NX Monorepo'
+        'NX Monorepo',
         'JQuery',
         'Bootstrap'
     ],
