@@ -122,6 +122,8 @@ var resume = {
         'React',
         'Redux',
         'Angular',
+        'NGRX',
+        'NX Monorepo'
         'JQuery',
         'Bootstrap'
     ],
@@ -129,6 +131,8 @@ var resume = {
         'IntelliJ',
         'Eclipse',
         'Visual Studio Code',
+        'Azure',
+        'AWS',
         'Xcode',
         'Maven',
         'Gradle',
