@@ -125,7 +125,7 @@ var resume = {
         'Vuex',
         'Angular',
         'NGRX',
-        'Nest.JS'
+        'Nest.JS',
         'Spring Boot',
         'Spring',
         'Hibernate',
