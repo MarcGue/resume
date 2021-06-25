@@ -70,7 +70,7 @@ var resume = {
         companyName: 'adesso AG',
         description: `
         <p>
-            Bei der adesso AG bin ich aktuell als Consultant in unterschiedlichen Projekten tätig. Im Rahmen dieser Tätigkeit habe ich bisher folgende Projekte umgesetzt: 
+            Bei der adesso AG war ich als Consultant in unterschiedlichen Projekten tätig. Im Rahmen dieser Tätigkeit habe ich folgende Projekte umgesetzt: 
         </p>
         <ul>
             <li>Implementierung einer Softwarelösung zum Verwalten und Vertreiben von Mietwagen (J2EE, AngularJS, Javascript, Typo3, Docker)</li>
