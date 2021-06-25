@@ -81,12 +81,32 @@ var resume = {
         title: 'Senior Software Engineer',
         dates: '05/2018 - heute',
         companyName: 'Cegeka Deutschland GmbH',
-        description: ``
+        description: `
+        <p>
+          Bei der Cegeka Deutschland GmbH bin ich als Consultant in unterschiedlichen Projekten tätig. Im Rahmen dieser Tätigkeit habe ich in folgenden Projekten sowohl Architekturen, Konzepte und Implementierungen umgesetzt:
+          <li>Plattform zum Verwalten von Mitarbeiterprofilen</li>
+          <li>Kundenportal für diverse Versicherungsprodukte</li>
+          <li>Digitale Antragsstrecke für eine Krebsversicherung</li>
+          <li>Digitale Antragsstrecke für eine Risikolebensversicherung</li>
+          <li>Microfrontend Applikation zum Verwalten von Stromspeichern</li>
+          <li>Digitalen Antragsstrecke für eine Grundfähigkeitsversicherung</li>
+          <li>Dokumentengenerator für Vorsorgedokumente</li>
+          <li>Plattform zum Verwalten von Verträgen</li>
+        </p>
+        `
     }, {
         title: 'Team Lead Berlin',
         dates: '01/2019 - heute',
         companyName: 'Cegeka Deutschland GmbH',
-        description: ``
+        description: `
+        <p>
+          Bei der Cegeka Deutschland GmbH bin ich für den Aufbau eines neuen Standorts in Berlin zuständig.
+        </p>
+        <ul>
+          <li>Aufbau einer Niederlassung in Berlin</li>
+          <li>Betreuung von Bestandskunden, sowie Neukundenaquise</li>
+          <li>Betreuung und Verwaltung der Angestellten für Berlin</li>
+        `
     }],
     trainings: [{
         title: 'Geprüfter Java Entwickler in HAF',
