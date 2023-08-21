@@ -151,7 +151,9 @@ var resume = {
         'Hibernate',
         'JUnit',       
         'JQuery',
-        'Bootstrap'
+        'Bootstrap',
+        'Mantine',
+        'Material UI',
     ],
     tools: [
         'Visual Studio Code',      
