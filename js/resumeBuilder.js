@@ -17,8 +17,8 @@ var HTMLarticle = `<article class="p-3"></article>`;
 var HTMLbadge = `<span class="badge badge-default m-1 p-2">%data%</span>`;
 
 var resume = {
-    profile: `Ich bin ein versierter Softwareentwickler mit mehr als sechs Jahren Berufserfahrung in verschiedenen Themengebieten. 
-                Meine Schwerpunkte liegen in der Entwicklung von Softwaresystemen mit den gängigen Sprachen Java, sowie Javascript.
+    profile: `Ich bin ein versierter Softwareentwickler mit mehr als zehn Jahren Berufserfahrung in verschiedenen Themengebieten. 
+                Meine Schwerpunkte liegen in der Entwicklung von Softwaresystemen mit den gängigen Sprachen Java, sowie Javascript/Typescript.
                 <br><br>Meine Arbeitsweise ist gekennzeichnet durch Effizienz, Selbständigkeit und Sorgfalt, 
                 aber auch durch ein hohes Maß an Verantwortungsbewusstsein und Zuverlässigkeit. 
                 Gutes Analyse - und Urteilsvermögen gehören ebenso zu meinem Qualifikationsprofil wie Kreativität und Flexibilität.`,
@@ -145,7 +145,7 @@ var resume = {
         'Vuex',
         'Angular',
         'NGRX',
-        'Nest.JS',
+        'NestJS',
         'Spring Boot',
         'Spring',
         'Hibernate',
