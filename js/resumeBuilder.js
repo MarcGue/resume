@@ -136,13 +136,28 @@ var resume = {
             <li>Schreiben von Tests eines Feed Readers</li>
         </ul>`,
         description_en: 'Become a Front-End Web Developer by completing a variety of projects:<br>- Build a Portfolio Site<br>- Online Resume<br>- Classic Arcade Game Clone<br>- Website Optimization<br>- Neighborhood Map<br>- Feed Reader Testing'
+    }, {
+        title: 'Blockchain Developer Nanodegree',
+        dates: '05/2021 - 08/2021',
+        companyName: 'Udacity Inc.',
+        description: `
+        <p>Abzuschließende Projekte des Nanodegrees:</p>
+        <ul>
+            <li>Notaryservice - Basic Blockchain knowledge</li>
+            <li>SupplyChain - From the bean to Coffee</li>
+            <li>Flightsurety - Flight insurance</li>
+            <li>RealEstate - NFT's for Real Estate</li>
+        </ul>`,
+        description_en: ''
     }],
     frameworks: [
-        'React',  
+        'React', 
+        'Next.js', 
+        'Tanstack',
+        'Tailwind CSS',
         'Redux',
         'NX Monorepo',
         'Vue',
-        'Vuex',
         'Angular',
         'NGRX',
         'NestJS',
@@ -150,9 +165,6 @@ var resume = {
         'Spring',
         'Hibernate',
         'JUnit',       
-        'JQuery',
-        'Bootstrap',
-        'Mantine',
         'Material UI',
     ],
     tools: [
@@ -168,6 +180,7 @@ var resume = {
         'Gradle',
         'Git',
         'Docker',
+        'Kubernetes',
         'Node.js',
         'Bower',
         'Grunt',
