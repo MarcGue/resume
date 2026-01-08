@@ -84,6 +84,8 @@ var resume = {
         description: `
         <p>
           Bei der Cegeka Deutschland GmbH bin ich als Consultant in unterschiedlichen Projekten tätig. Im Rahmen dieser Tätigkeit habe ich in folgenden Projekten sowohl Architekturen, Konzepte und Implementierungen umgesetzt:
+        </p>
+        <ul>
           <li>Plattform zum Verwalten von Mitarbeiterprofilen</li>
           <li>Kundenportal für diverse Versicherungsprodukte</li>
           <li>Digitale Antragsstrecke für eine Krebsversicherung</li>
@@ -92,7 +94,7 @@ var resume = {
           <li>Digitalen Antragsstrecke für eine Grundfähigkeitsversicherung</li>
           <li>Dokumentengenerator für Vorsorgedokumente</li>
           <li>Plattform zum Verwalten von Verträgen</li>
-        </p>
+        </ul>
         `
     }, {
         title: 'Team Lead Berlin',
